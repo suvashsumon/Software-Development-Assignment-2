@@ -12,6 +12,6 @@ const leaderSchema = new Schema({
     timestamps: true
 });
 
-let Leaders = mongoose.model('Leader', promoSchema);
+let Leaders = mongoose.model('Leader', leaderSchema);
 
 module.exports = Leaders;
